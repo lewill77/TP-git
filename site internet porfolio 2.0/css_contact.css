@@ -1,0 +1,55 @@
+#text-cord
+{
+    color: white;
+}
+
+
+body{
+    background-image: url("circuit-numerique.jpg");
+}
+
+/* Ajoute un fond gris sur la barre de navigation */
+*
+{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.topnav 
+  {
+    background-color: rgba(117, 117, 117, 0.566);
+    overflow: hidden;
+  }
+
+  
+  .topnav a 
+  {
+    font-family: "Roboto", sans-serif;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center; /* Customization des liens cliquables*/
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover 
+  {
+    background-color: #cf680f;
+    color: rgb(239, 239, 239);
+    transition: .75s; /* faire un effet de couleur qui apparaît et disparaît lors du survol avec le curseur*/
+  }
+
+  .topnav a.active 
+  {
+    background-color: #cf680f;
+    color: white;
+  }
+
+  .topnav .icon 
+  {
+    display: none;
+  }
+  .navbar1
+{
+    margin-left:1075px;
+}
