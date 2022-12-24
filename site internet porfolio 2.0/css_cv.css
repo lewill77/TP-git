@@ -30,14 +30,14 @@ body{
 
   .topnav a:hover 
   {
-    background-color: #cf680f;
+    background-color: #2f0b6291;
     color: rgb(239, 239, 239);
     transition: .75s; /* faire un effet de couleur qui apparaît et disparaît lors du survol avec le curseur*/
   }
 
   .topnav a.active 
   {
-    background-color: #cf680f; /* couleur de fond du acceuil*/
+    background-color: #2f0b6291; /* couleur de fond du acceuil*/
     color: white;
   }
 
@@ -67,25 +67,27 @@ h1{
 }
 .box-button-1
 {
-margin-left: 160px;
+margin-left: 420px;
 border: 2px solid #0c4fa1;
-border-radius: 5px;
-background-color:#cf680f ;
+border-radius: 15px;
+background-color:#2f0b62cf;
 padding: 14px;
+margin-top: 70px;
 color: #ffffff  ;
 }
 .box-button-2
 {
-margin-left: 160px;
+
+margin-left: 134px;
 border: 2px solid #0c4fa1;
-border-radius: 5px;
-background-color:#cf680f ;
+border-radius: 15px;
+background-color:#2f0b62cf ;
 padding: 14px;
 color: #ffffff  ;
 }
 .pied-de-page
 {
-background-color: rgb(128, 128, 128);
-height: 50px;
-  
+background-color: #1755a0e2;
+height: 70px;
+margin-top: -10px;
 }

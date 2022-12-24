@@ -16,15 +16,31 @@
         <a href="CV.html">CV et Lettre de motivation</a>                  
         <a href="referentiel.html">BTS SIO</a>
         <a href="contact.html">Contact</a>
-        </div>          
-        <!-- https://enqdip.sup.adc.education.fr/bts/referentiel/BTS_ServicesInformatiquesOrganisations.pdf -->                   
+        </div>                             
         <i class="Barre portfolio"></i>               
     </div>
     </nav>
-    <h1 id="text-cord"> Mes coordonnées </h1>
-    <p id="text-cord">Nom: GUIHAIRE </p>
-    <p id="text-cord">Prenom: Corentin</p>
-    <p id="text-cord">Email: corentin.guihaire@gmail.com</p>
+
+    <div class="container">
+        <h1>Pour me contacter!</h1>
+        <form action="/action_page.php">
+          <label for="fname"><h4>Nom & prénom</h4></label>
+          <input type="text" id="fname" name="firstname" placeholder="Votre nom et prénom">
+      
+          <label for="sujet"><h4>Sujet</h4></label>
+          <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+      
+          <label for="emailAddress"><h4>Email</h4></label>
+          <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+      
+      
+          <label for="subject"><h4>Message</h4></label>
+          <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+      
+          <input type="submit" value="Envoyer">
+        </form>
+      </div>
+      
     
 </body>
 </html>

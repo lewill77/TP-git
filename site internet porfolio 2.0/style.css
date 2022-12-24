@@ -38,14 +38,14 @@ body{
 
   .topnav a:hover 
   {
-    background-color: #cf680f;
+    background-color: #2f0b6291;
     color: rgb(239, 239, 239);
     transition: .75s; /* faire un effet de couleur qui apparaît et disparaît lors du survol avec le curseur*/
   }
 
   .topnav a.active 
   {
-    background-color: #cf680f;
+    background-color: #2f0b6291;
     color: white;
   }
 
@@ -56,5 +56,17 @@ body{
    
 .navbar1
 {
-    margin-left:1075px;
+    margin-left:1073px;
+}
+
+.box-button-8
+{
+  color: #ffffff ;
+  margin-left: 650px ;
+}
+img
+{
+  margin-left: 610px;
+  border-radius: 5px;
+  margin-top: 40px;
 }
